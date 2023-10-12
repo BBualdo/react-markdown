@@ -44,7 +44,7 @@ And here. | Okay. | I think we get it.
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
 
-![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+![React + TS](https://miro.medium.com/v2/resize:fit:800/0*CBjisl422hUyLxiG.png)
 `;
 	const [markdown, setMarkdown] = useState(initialState);
 
