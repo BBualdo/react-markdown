@@ -55,17 +55,18 @@ And here. | Okay. | I think we get it.
 	return (
 		<>
 			<main>
-				<div>
+				<div className='editor__container'>
+					<div className='editor__header'>
+						<h3>Editor</h3>
+					</div>
 					<textarea
 						name='editor'
 						id='editor'
-						cols={30}
-						rows={10}
 						value={markdown}
 						onChange={onChangeHandler}
-					></textarea>
+					/>
 				</div>
-				<div id='preview'>
+				<div id='preview' className='preview__container'>
 					<Markdown>{markdown}</Markdown>
 				</div>
 			</main>
